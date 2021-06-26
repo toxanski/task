@@ -1,7 +1,7 @@
 const User = require('../models/user');
 
 module.exports.home = async (req, res) => {
-  res.end('<h1>Главная</h1>');
+  res.end('Home');
 }
 
 module.exports.sendUser = async (req, res) => {

@@ -11,6 +11,6 @@ app.get('/', userController.home);
 
 app.post('/api/create/users', userController.sendUser);
 
-app.listen(5000, () => {
+app.listen(80, () => {
   console.log('Сервер запущен на порту 5000');
 });
